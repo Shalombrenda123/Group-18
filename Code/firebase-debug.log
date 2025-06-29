@@ -1,0 +1,22 @@
+[debug] [2025-06-08T11:57:52.974Z] ----------------------------------------------------------------------
+[debug] [2025-06-08T11:57:52.979Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sofor Julius\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create web car (windows) --json --project=caff-87d67
+[debug] [2025-06-08T11:57:52.979Z] CLI Version:   14.6.0
+[debug] [2025-06-08T11:57:52.980Z] Platform:      win32
+[debug] [2025-06-08T11:57:52.980Z] Node Version:  v22.16.0
+[debug] [2025-06-08T11:57:52.980Z] Time:          Sun Jun 08 2025 14:57:52 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-06-08T11:57:52.981Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-08T11:57:52.991Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-08T11:57:52.992Z] > authorizing via signed-in user (shalombrenda77@gmail.com)
+[info] Create your WEB app in project caff-87d67:
+[debug] [2025-06-08T11:57:53.000Z] Checked if tokens are valid: true, expires at: 1749387223783
+[debug] [2025-06-08T11:57:53.001Z] Checked if tokens are valid: true, expires at: 1749387223783
+[debug] [2025-06-08T11:57:53.003Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/caff-87d67/webApps [none]
+[debug] [2025-06-08T11:57:53.003Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/caff-87d67/webApps {"displayName":"car (windows)"}
+[debug] [2025-06-08T11:58:08.017Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/caff-87d67/webApps, {"headers":{},"method":"POST","signal":{},"body":"{\"displayName\":\"car (windows)\"}"}): AbortError: The user aborted a request.
+[debug] [2025-06-08T11:58:08.018Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/caff-87d67/webApps
+[debug] [2025-06-08T11:58:10.433Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/caff-87d67/webApps
+    at RetryOperation._fn (C:\Users\Sofor Julius\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Web app for project caff-87d67. See firebase-debug.log for more info.
